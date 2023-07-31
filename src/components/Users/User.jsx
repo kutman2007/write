@@ -14,6 +14,6 @@ export const User = ({id, email, first_name, last_name, avatar, onclickinist, in
         </p>
       </div>
     </div>
-    <img onClick={()=>{onclickinist(id)}} className="action" src={`/assets/${inited ? 'minus' : 'plus'}.svg`} alt="Action" />
+    <img onClick={()=>{onclickinist(id)}} className="action" src={`./assets/${inited ? 'minus' : 'plus'}.svg`} alt="Action" />
   </li>
 );
